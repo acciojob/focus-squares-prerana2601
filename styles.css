@@ -1,1 +1,22 @@
 /*  your css code here. If applicable */
+/* style.css */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: #E6E6FA; /* Initial Lavender color */
+    transition: background-color 0.3s ease;
+}
+
+.square:hover {
+    background-color: #6F4E37; /* Coffee color */
+}
